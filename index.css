@@ -1,0 +1,203 @@
+#banner_image{
+    padding: 100px;
+    text-align: center;
+    color: #f8f8f8;
+    background-image: url(images/intro-bg_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#banner_content{
+    position: center;
+    font-family: 'Days One', sans-serif;
+    padding:8%;
+    margin: 9%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 1200px;
+    max-height: 700px;
+    
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+/* navbar */
+.navbar{
+    background-color: #33AFA9;
+}
+#link{
+    color:#05386B;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5rem;
+}
+#link:hover{
+    color: #DEF2F1;
+}
+#brand{
+    color:#05386B;
+}
+#brand:hover{
+    color: #DEF2F1;
+}
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    margin:0px 1.5rem;
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger5.svg?color=f3e5f5');
+    }
+
+/* pricing section */
+#pricing{
+    background-color: #DEF2F1;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* jumbotron */
+.jumbo-style{
+    margin: 2%;
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #DEF2F1;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* content */
+.img-thumbnail{
+    height: 250px;
+    width: 250px;
+}
+.caption{
+    text-align: center;
+}
+.shirts{
+    font-family: 'Fredoka One', cursive;
+}
+.thumbnail{
+    margin-bottom: 4%;
+}
+.btn{
+    border: 0px;
+    background-color: #05386B;
+}
+.btn:hover{
+    background-color: #DEF2F1;
+}
+.item{
+    font-size: 2rem;
+}
+
+/* features */
+#features{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+.font-awesome{
+    color:#05386B;
+    margin-bottom: 1rem;
+}
+.font-awesome:hover{
+    color:#DEF2F1;
+}
+.head{
+    font-size: 1.5rem;
+}
+.para{
+    color: #8f8f8f;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* testimonials */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    background-color: #DEF2F1;
+}
+.testimonial-text{
+    line-height: 1.5;
+    font-size: 2rem;
+}
+.men-img{
+    width: 20%;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#press{
+    text-align: center;
+    padding: 3%;
+}
+.press{
+    width: 15%;
+    margin: 0 2%;
+   
+}
+ 
+/* footer */
+#footer{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #33AFA9;
+    color: #05386B;
+    padding: 0.5%;
+}
+.awesome{
+    padding: 0 4px;
+}
+.awesome:hover{
+    color: #DEF2F1;
+}
+
+/* cart */
+#table{
+    padding: 12%;
+    font-size: 1rem;
+}
+@media(max-width:1028px) {
+
+    h2{
+    font-size: 2rem;}
+    h3{
+        font-size: 1rem;
+    }
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+    #link{
+        font-size: 1rem;
+    }
+    #banner-image{
+        padding: 50px;
+    }
+    .pricing-column{
+        margin: 2% 10%;
+        text-align: center;
+
+    }
+    .testimonial-text{
+        font-size: 1rem;
+    }
+    .men-img{
+        width: 40%;
+        height: 250px;
+        border-radius: 100%;
+    }
+    .caption{
+        padding: 10% 6%;
+        float: right;
+    }
+    .img-thumbnail{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
